@@ -1,0 +1,100 @@
+body {
+  text-align: right;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+/********* Custom Classes *********/
+.colored-section {
+  background-color: #9ccc65;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/************** BOOTSTRAP CLASSES **************/
+/* container class provides a responsive fixed width container. The .container-fluid class provides a full width container, spanning the entire width of the viewport. */
+/* used in all sections */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/************** NAVIGATION BAR & TITLE Section **************/
+.big-heading {
+  text-align: center;
+  padding-top: 6%;
+}
+
+/* .navbar-leftmargin{
+    margin-left: 25%;
+  } */
+/************** ABOUT US Section **************/
+#personal-img {
+  height: 200px;
+  width: 280px;
+}
+
+.person-text-ul {
+  /* removing bulletpoint, padding & margin before list item */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.person-text-li:after {
+  /* inline-block to set height & width for it. */
+  content: "-";
+  display: inline-block;
+  margin-left: 5px;
+  /* use before, to have bulletpoint instead of dash */
+  /* width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: black; */
+}
+
+/************** OUR SERVICES Section **************/
+.services-div {
+  text-align: center;
+}
+
+.services-icon {
+  font-size: 6rem;
+  margin: 20px 0;
+}
+
+.services-text-div {
+  width: 200px;
+  margin: 0px auto;
+}
+
+/************** PROJECTS & CLIENTS Section **************/
+.projects-div {
+  text-align: center;
+  color: #424242;
+}
+
+.project-icon{
+  font-size: 5rem;
+  margin: 20px 0;
+}
+
+.our-clients-imgs-div {
+  text-align: center;
+}
+
+.client-img {
+  height: 160px;
+  width: 240px;
+  border-style: solid;
+  border-radius: 4%;
+  border-width: 1.5px;
+  border-color: #e0e0e0;
+  margin: 8px;
+}
+
+/************** CONTACT US Section **************/

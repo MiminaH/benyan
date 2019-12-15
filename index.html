@@ -1,10 +1,206 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Benyan</title>
+
+  <!-- linking html with Bootstrap & my CSS stylessheet. -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- linking to Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/72e3608845.js" crossorigin="anonymous"></script>
+
+  <!-- linking Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  <section class="colored-section container-fluid" id="navbar-title-section">
+
+    <!-- navbar-dark > to make text color white -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <a class="navbar-brand" href="index.html">البنيان</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- ml-auto > adding left margin to place navbar-items on right side in navbar. -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">اتصل بنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">مشريعنا وعملائنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">خدمتنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">معلومات عنا</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">الرئيسية<span class="sr-only">(current)</span></a>
+          </li>
+          <!-- <li class="nav-item">
+             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+           </li> -->
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Title -->
+    <div id="title-div">
+      <h1 class="big-heading">مكتب البنيان للأستشارات الهندسية</h1>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about-us" class="white-section container-fluid">
+    <div class="about-us-title">
+      <h2>معلومات عن</h2>
+    </div>
+
+    <div class="about-us-person-text row">
+      <div class="about-us-person-img col-md-4">
+        <img id="personal-img" src="images\personal-img.jpg" alt="Personal Image">
+      </div>
+
+      <div class="about-us-person-text col-md-8 col-sm-12">
+        <h3>مهندس جمال أبو النصر</h3>
+        <ul class="person-text-ul">
+          <li class="person-text-li">نموذج افتراضي يوضع في التصاميم لتعرض على العميل</li>
+          <li class="person-text-li">نموذج افتراضي يوضع في التصاميم لتعرض على العميل</li>
+          <li class="person-text-li">نموذج افتراضي يوضع في التصاميم لتعرض على العميل</li>
+          <li class="person-text-li">نموذج افتراضي يوضع في التصاميم لتعرض على العميل</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="about-us-company row">
+      <div class="about-us-mission-statement col-lg-4 col-md-5">
+        <h3>مهمتنا</h3>
+        <p class="mission-text">نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم. وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم</p>
+      </div>
+
+      <div class="col-lg-2 col-md-2"></div>
+
+      <div class="about-us-company-statement col-lg-4 col-md-5">
+        <h3>عن الشركة</h3>
+        <p class="company-text">نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم. وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Services -->
+  <section id="our-services" class="colored-section container-fluid">
+
+    <div class="our-services-title">
+      <h2>خدماتنا</h2>
+    </div>
+
+    <div class="our-services-divs-group row">
+      <div class="services-div col-lg-4">
+        <i class="services-icon fas fa-calculator fa-4xi"></i>
+        <h3>حساب الكميات</h3>
+        <div class="services-text-div">
+          <p>نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم</p>
+        </div>
+      </div>
+
+      <div class="services-div col-lg-4">
+        <i class="services-icon fas fa-couch fa-4xi"></i>
+        <h3>التصميم الداخلي</h3>
+        <div class="services-text-div">
+          <p>نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم</p>
+        </div>
+      </div>
+
+      <div class="services-div col-lg-4">
+        <i class="services-icon fas fa-drafting-compass fa-4xi"></i>
+        <h3>صميمات الهندسية</h3>
+        <div class="services-text-div">
+          <p>نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects & Clients -->
+  <section id="projects-clients" class="white-section container-fluid">
+    <div class="our-project-title">
+      <h2>مشاريعنا</h2>
+    </div>
+
+    <div class="our-projects-subsection row">
+      <div class="projects-div col-lg-3">
+        <i class="project-icon fas fa-industry fa-5xi"></i>
+        <h3>240+</h3>
+        <p>مشروع صناعي</p>
+      </div>
+      <div class="projects-div col-lg-3">
+        <i class="project-icon fas fa-city fa-5xi"></i>
+        <h3>385+</h3>
+        <p>مشروع تجاري</p>
+      </div>
+      <div class="projects-div col-lg-3">
+        <i class="project-icon fas fa-building fa-5xi"></i>
+        <h3>365+</h3>
+        <p>مشروع إستثماري</p>
+      </div>
+      <div class="projects-div col-lg-3">
+        <i class="project-icon fas fa-home fa-5xi"></i>
+        <h3>390+</h3>
+        <p>مشروع سكني</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="our-clients-title">
+      <h2>عملائنا</h2>
+    </div>
+
+    <div class="our-clients-imgs-div">
+      <img class="client-img" src="images\client-logo1.jpg" alt="client-img">
+      <img class="client-img" src="images\client-logo2.jpg" alt="client-img">
+      <img class="client-img" src="images\client-logo3.jpg" alt="client-img">
+      <img class="client-img" src="images\client-logo4.jpg" alt="client-img">
+      <img class="client-img" src="images\client-logo5.png" alt="client-img">
+      <img class="client-img" src="images\client-logo6.png" alt="client-img">
+      <img class="client-img" src="images\client-logo7.png" alt="client-img">
+      <img class="client-img" src="images\client-logo8.png" alt="client-img">
+    </div>
+
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact-us" class="colored-section container-fluid">
+
+    <h1>testimonial</h1>
+    <h1>test</h1>
+    <h2>jtemr</h2>
+  </section>
+
+</body>
+
 </html>
+
+
+<!-- <h1>testimonial</h1>
+<h1>test</h1>
+<h2>jtemr</h2>
+<h1>testimonial</h1>
+<h1>test</h1>
+<h2>jtemr</h2><h1>testimonial</h1>
+<h1>test</h1>
+<h2>jtemr</h2> -->
