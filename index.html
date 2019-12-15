@@ -24,7 +24,7 @@
   <section class="colored-section container-fluid" id="navbar-title-section">
 
     <!-- navbar-dark > to make text color white -->
-    <nav class="navbar navbar-expand-md navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="index.html">البنيان</a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,21 +33,21 @@
 
       <!-- ml-auto > adding left margin to place navbar-items on right side in navbar. -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">اتصل بنا</a>
+        <ul class="navbar-nav ml-auto flex-row-reverse">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">الرئيسية<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">مشريعنا وعملائنا</a>
+            <a class="nav-link" href="#">معلومات عنا</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">خدمتنا</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">معلومات عنا</a>
+            <a class="nav-link" href="#">مشريعنا وعملائنا</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">الرئيسية<span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">اتصل بنا</a>
           </li>
           <!-- <li class="nav-item">
              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -65,7 +65,7 @@
   <!-- About Us -->
   <section id="about-us" class="white-section container-fluid">
     <div class="about-us-title">
-      <h2>معلومات عن</h2>
+      <h2>معلومات عنا</h2>
     </div>
 
     <div class="about-us-person-text row">
@@ -76,28 +76,32 @@
       <div class="about-us-person-text col-md-8 col-sm-12">
         <h3>مهندس جمال أبو النصر</h3>
         <ul class="person-text-ul">
-          <li class="person-text-li">نموذج افتراضي يوضع في التصاميم لتعرض على العميل</li>
-          <li class="person-text-li">نموذج افتراضي يوضع في التصاميم لتعرض على العميل</li>
-          <li class="person-text-li">نموذج افتراضي يوضع في التصاميم لتعرض على العميل</li>
-          <li class="person-text-li">نموذج افتراضي يوضع في التصاميم لتعرض على العميل</li>
+          <li class="person-text-li">نموذج افتراضي يوضع في التصاميم لتعرض على العميل.</li>
+          <li class="person-text-li">نموذج افتراضي يوضع في التصاميم لتعرض على العميل.</li>
+          <li class="person-text-li">نموذج افتراضي يوضع في التصاميم لتعرض على العميل.</li>
+          <li class="person-text-li">نموذج افتراضي يوضع في التصاميم لتعرض على العميل.</li>
         </ul>
       </div>
     </div>
 
     <hr>
 
-    <div class="about-us-company row">
-      <div class="about-us-mission-statement col-lg-4 col-md-5">
-        <h3>مهمتنا</h3>
-        <p class="mission-text">نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم. وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم</p>
-      </div>
-
-      <div class="col-lg-2 col-md-2"></div>
-
+    <div class="about-us-company-div d-flex flex-row-reverse">
       <div class="about-us-company-statement col-lg-4 col-md-5">
         <h3>عن الشركة</h3>
         <p class="company-text">نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم. وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم.</p>
       </div>
+
+      <div class="col-lg-2 col-md-2"></div>
+
+      <div class="about-us-mission-statement col-lg-4 col-md-5">
+        <h3>مهمتنا</h3>
+        <p class="mission-text">نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم. وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم.</p>
+      </div>
+    </div>
+
+    <div class="see-more-div">
+      <p>المزيد هنا</p>
     </div>
   </section>
 
@@ -109,29 +113,33 @@
     </div>
 
     <div class="our-services-divs-group row">
-      <div class="services-div col-lg-4">
+      <div class="services-div col-md-4">
         <i class="services-icon fas fa-calculator fa-4xi"></i>
         <h3>حساب الكميات</h3>
         <div class="services-text-div">
-          <p>نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم</p>
+          <p>نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم.</p>
         </div>
       </div>
 
-      <div class="services-div col-lg-4">
+      <div class="services-div col-md-4">
         <i class="services-icon fas fa-couch fa-4xi"></i>
         <h3>التصميم الداخلي</h3>
         <div class="services-text-div">
-          <p>نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم</p>
+          <p>نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم.</p>
         </div>
       </div>
 
-      <div class="services-div col-lg-4">
+      <div class="services-div col-md-4">
         <i class="services-icon fas fa-drafting-compass fa-4xi"></i>
         <h3>صميمات الهندسية</h3>
         <div class="services-text-div">
-          <p>نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم</p>
+          <p>نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم.</p>
         </div>
       </div>
+    </div>
+
+    <div class="see-more-div">
+      <p>المزيد هنا</p>
     </div>
   </section>
 
@@ -142,22 +150,22 @@
     </div>
 
     <div class="our-projects-subsection row">
-      <div class="projects-div col-lg-3">
+      <div class="projects-div col-sm-3">
         <i class="project-icon fas fa-industry fa-5xi"></i>
         <h3>240+</h3>
         <p>مشروع صناعي</p>
       </div>
-      <div class="projects-div col-lg-3">
+      <div class="projects-div col-sm-3">
         <i class="project-icon fas fa-city fa-5xi"></i>
         <h3>385+</h3>
         <p>مشروع تجاري</p>
       </div>
-      <div class="projects-div col-lg-3">
+      <div class="projects-div col-sm-3">
         <i class="project-icon fas fa-building fa-5xi"></i>
         <h3>365+</h3>
         <p>مشروع إستثماري</p>
       </div>
-      <div class="projects-div col-lg-3">
+      <div class="projects-div col-sm-3">
         <i class="project-icon fas fa-home fa-5xi"></i>
         <h3>390+</h3>
         <p>مشروع سكني</p>
@@ -167,7 +175,7 @@
     <hr>
 
     <div class="our-clients-title">
-      <h2>عملائنا</h2>
+      <h2 class="our-clients-h2">عملائنا</h2>
     </div>
 
     <div class="our-clients-imgs-div">
@@ -181,11 +189,25 @@
       <img class="client-img" src="images\client-logo8.png" alt="client-img">
     </div>
 
+    <div class="see-more-div">
+      <p>المزيد هنا</p>
+    </div>
   </section>
 
   <!-- Contact Us -->
   <section id="contact-us" class="colored-section container-fluid">
+    <h2>اتصل بنا</h2>
+    <div class="contact-us-details-div">
+      <!-- &lrm > fixes punctuation probelm. -->
+      <p>التجمع الخامس - الحي الرابع - عمارة 129ب (خلف جهاز التجمع الخامس) &lrm; </p>
+      <p>25414685 - 01227476755 - 01009724707</p>
+      <p>username@email.com</p>
+    </div>
 
+  <div class="copyright-div">
+    <p>حقوق الطبع والنشر © بنيان 2019. كل الحقوق محفوظة.</p>
+    <!-- <p>Copyright © 2019 Benyan. All Rights Reserved.</p> -->
+  </div>
   </section>
 
 </body>

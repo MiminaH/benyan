@@ -4,11 +4,17 @@ body {
 
 h2 {
   font-weight: bold;
+  margin-bottom: 40px;
+}
+
+p, li{
+  /* rtl > fixes probelm with punctuation displaying at beginning of sentence. */
+  direction: rtl;
 }
 
 /********* Custom Classes *********/
 .colored-section {
-  background-color: #9ccc65;
+  background-color: #689f38;
   color: white;
 }
 
@@ -16,11 +22,18 @@ h2 {
   background-color: white;
 }
 
+.see-more-div{
+  text-align: left;
+  font-weight: 350;
+  text-decoration: underline;
+  margin-top: 30px;
+}
+
 /************** BOOTSTRAP CLASSES **************/
 /* container class provides a responsive fixed width container. The .container-fluid class provides a full width container, spanning the entire width of the viewport. */
 /* used in all sections */
 .container-fluid {
-  padding: 7% 15%;
+  padding: 3% 15%;
 }
 
 /************** NAVIGATION BAR & TITLE Section **************/
@@ -29,13 +42,11 @@ h2 {
   padding-top: 6%;
 }
 
-/* .navbar-leftmargin{
-    margin-left: 25%;
-  } */
 /************** ABOUT US Section **************/
 #personal-img {
-  height: 200px;
-  width: 280px;
+  height: 230px;
+  width: 380px;
+  margin-bottom: 10px;
 }
 
 .person-text-ul {
@@ -45,7 +56,7 @@ h2 {
   margin: 0;
 }
 
-.person-text-li:after {
+.person-text-li:before {
   /* inline-block to set height & width for it. */
   content: "-";
   display: inline-block;
@@ -55,6 +66,10 @@ h2 {
     height: 6px;
     border-radius: 50%;
     background-color: black; */
+}
+
+.about-us-company-div{
+  margin-top: 50px;
 }
 
 /************** OUR SERVICES Section **************/
@@ -83,6 +98,10 @@ h2 {
   margin: 20px 0;
 }
 
+.our-clients-h2{
+  margin-top: 50px;
+}
+
 .our-clients-imgs-div {
   text-align: center;
 }
@@ -98,3 +117,15 @@ h2 {
 }
 
 /************** CONTACT US Section **************/
+#contact-us{
+  padding-bottom: 1%;
+}
+
+.contact-us-details-div{
+  margin: 5px 20px 80px;
+  line-height: 1;
+}
+
+.copyright-div{
+  text-align: center;
+}
