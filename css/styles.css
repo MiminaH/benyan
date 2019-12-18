@@ -7,7 +7,7 @@ h2 {
   margin-bottom: 40px;
 }
 
-p, li{
+p, li {
   /* rtl > fixes probelm with punctuation displaying at beginning of sentence. */
   direction: rtl;
 }
@@ -22,7 +22,7 @@ p, li{
   background-color: white;
 }
 
-.see-more-div{
+.see-more-div {
   text-align: left;
   font-weight: 350;
   text-decoration: underline;
@@ -49,10 +49,20 @@ p, li{
   margin-bottom: 10px;
 }
 
+.about-us-person-parent-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-us-person-img-div {
+  /* hidden -> so Div streches to fit its content (image). */
+  overflow: hidden;
+}
+
 .person-text-ul {
   /* removing bulletpoint, padding & margin before list item */
   list-style: none;
-  padding: 0;
+  padding: 10px 20px 10px 10px;
   margin: 0;
 }
 
@@ -68,7 +78,7 @@ p, li{
     background-color: black; */
 }
 
-.about-us-company-div{
+.about-us-company-div {
   margin-top: 50px;
 }
 
@@ -93,12 +103,12 @@ p, li{
   color: #424242;
 }
 
-.project-icon{
+.project-icon {
   font-size: 5rem;
   margin: 20px 0;
 }
 
-.our-clients-h2{
+.our-clients-h2 {
   margin-top: 50px;
 }
 
@@ -117,15 +127,15 @@ p, li{
 }
 
 /************** CONTACT US Section **************/
-#contact-us{
+#contact-us {
   padding-bottom: 1%;
 }
 
-.contact-us-details-div{
+.contact-us-details-div {
   margin: 5px 20px 80px;
   line-height: 1;
 }
 
-.copyright-div{
+.copyright-div {
   text-align: center;
 }
