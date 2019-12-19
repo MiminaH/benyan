@@ -43,7 +43,7 @@ p, li {
 }
 
 .nav-item{
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 /************** ABOUT US Section **************/
@@ -136,7 +136,7 @@ p, li {
 
 /************** CONTACT US Section **************/
 #contact-us {
-  padding-bottom: 1%;
+  padding-bottom: 1px;
 }
 
 .contact-us-details-div {
@@ -145,5 +145,28 @@ p, li {
 }
 
 .copyright-div {
+  direction: rtl;
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.copyright-p{
+  display: inline-block;
+  margin-bottom: 1px;
+}
+
+.copyright-p-a-div{
+  text-align: left;
+  padding-left: 10px;
+}
+
+.copyright-p-a{
+  display: inline-block;
+  /* margin-bottom: 5px; */
+}
+
+.created-by-a{
+  text-decoration: underline;
+  color: #4fc3f7;
 }
