@@ -39,7 +39,7 @@ p, li {
 /************** NAVIGATION BAR & TITLE Section **************/
 .big-heading {
   text-align: center;
-  padding-top: 6%;
+  padding: 6% 0 3%;
 }
 
 .nav-item{
